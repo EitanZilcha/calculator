@@ -1,0 +1,20 @@
+@font-face {
+    font-family: digital-7;
+    src: url(..//fonts/digital-7.ttf);
+}
+
+.display{
+    background-color: rgb(45, 95, 76);
+    min-height: 30%;
+    color: lightgray;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+    box-shadow: rgba(34, 34, 71, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 36px 72px -36px inset;
+}
+.display h1{
+    font: normal 36px digital-7;
+    font-size: 7.5vmin;
+    letter-spacing: 0.25em;
+    color: rgb(93, 175, 155);
+    word-wrap: break-word;
+    margin: 20px 30px;
+}

@@ -1,0 +1,90 @@
+.calculator .buttons{
+    display: flex;
+    flex-flow: row nowrap;
+    flex: 1;
+    
+    justify-content: stretch;
+}
+
+.calculator .buttons input{
+    -webkit-appearance: none;
+    font: normal 150% impact;
+    font-size: 5.5vmin;
+}
+
+.calculator .buttons input .operators{
+    font-size: 6.5vmin;
+}
+
+.calculator .buttons input{
+    transition: all 0.2s ease-in-out;
+    border-style: none;
+    box-shadow: rgba(10, 10, 10, 0.06) 0px 2px 4px 0px inset;
+}
+
+.calculator .buttons input:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.calculator .buttons input:active{
+    box-shadow: rgba(69, 188, 218, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    font-size: 4.5vmin;
+}
+
+input:focus{
+    outline: none;
+}
+
+.calculator .buttons .numbers{
+    display: flex;
+    justify-self: flex-start;
+    align-self: stretch;
+    flex-flow: row wrap-reverse;
+    flex-basis: 60%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.calculator .buttons .operators{
+    flex: 1;
+    display: flex;
+    justify-self: flex-end;
+    align-self: center;
+    flex-flow: row wrap;
+    height: 100%;
+    min-height: 20%;
+}
+
+.calculator .buttons .numbers input{
+    flex-basis: 33.33%;
+    
+    background-color:rgb(230, 230, 230);
+}
+
+.calculator .buttons .operators input{
+    flex-basis: 50%;
+    height: 20%;
+    align-self: stretch;
+    
+    background-color:lightgray;
+}
+
+.calculator .buttons .operators input.equals{
+    flex: 1;
+    width: 100%;
+    flex-basis: 100%;
+    background-color: orange;
+    font-size: 8.5vmin;
+    min-height: 20%;
+}
+
+.calculator .buttons .operators input.large{
+    font-size: 7.5vmin;
+}
+
+.calculator .buttons input.large:active{
+    font-size: 6.0vmin !important;
+}
+.calculator .buttons .numbers .zero{
+    width: 66.66%;
+    flex-basis: 66.66%;
+}

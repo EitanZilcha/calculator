@@ -1,0 +1,12 @@
+.calculator{
+    display: flex;
+    flex-flow: column nowrap;
+    height: 100%;
+    margin:0;
+    align-self:baseline;
+    justify-self: stretch;
+
+    border-color: rgb(105, 105, 105);
+    border-width: 5px;
+    border-style: none;
+}
